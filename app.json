@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Permissões e Plugins (TS)",
+    "slug": "expo-permissoes-plugins-ts",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSContactsUsageDescription": "Precisamos acessar seus contatos para exibi-los no aplicativo."
+      }
+    },
+    "android": {
+      "permissions": [
+        "READ_CONTACTS"
+      ],
+      "package": "com.example.permissoespluginsts"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
